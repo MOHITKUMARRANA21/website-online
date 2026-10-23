@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Todolist
+    </title>
+    <link rel="stylesheet" href="csscode/todolist-v1.css">
+  </head>
+  <body>
+    <p>To Do List</p>
+    <div class="js-1stline">
+      <input placeholder="Todo name" class="js-value" onkeydown="
+      if(event.key=='Enter')
+      add()
+      ">
+      <input type="date" class="js-value2">
+      <button onclick="add()" class="button1">Add</button>
+    </div>
+    <div class="js-Display">
+    </div>
+    <script src="javascriptcode/todolist-v1.js"></script>
+  </body>
+</html>
